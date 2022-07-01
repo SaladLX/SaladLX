@@ -1,0 +1,6 @@
+colorama
+os
+random
+secrets
+string
+time
