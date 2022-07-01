@@ -1,6 +1,6 @@
 # SaladLX
 
-###A full guide to installing SaladLX
+### A full guide to installing SaladLX
 
 ![](https://i.ibb.co/LzK8FXQ/Screenshot-2022-07-01-6-56-39-PM.png)
 
