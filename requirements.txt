@@ -1,5 +1,4 @@
 colorama
-random
 secrets
 string
 time
