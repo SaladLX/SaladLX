@@ -1,5 +1,4 @@
 colorama
-os
 random
 secrets
 string
