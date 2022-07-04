@@ -47,11 +47,11 @@ profit = int(profit)
 
 for line in range(amount):
     
-    time.sleep(0.5)
+    time.sleep(0.6)
     
     mined = int(mined) + 1
     
-    hash_profit = random.randint(1, 10)
+    hash_profit = random.randint(1, 9)
     hash_profit = int(hash_profit)
     
     profit = int(profit) + hash_profit
