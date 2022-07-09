@@ -47,11 +47,11 @@ profit = int(profit)
 
 for line in range(amount):
     
-    time.sleep(0.6)
+    time.sleep(0.7)
     
     mined = int(mined) + 1
     
-    hash_profit = random.randint(1, 9)
+    hash_profit = random.randint(3, 9) #This depends on your CPU power
     hash_profit = int(hash_profit)
     
     profit = int(profit) + hash_profit
@@ -69,4 +69,3 @@ for line in range(amount):
         time.sleep(1)
         
         print(Fore.MAGENTA + f'Profit: ${profit}')
-    
