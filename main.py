@@ -54,7 +54,7 @@ for line in range(amount):
     
     mined = int(mined) + 1
     
-    hash_profit = random.randint(130, 160) #This depends on your CPU power
+    hash_profit = random.randint(3, 9) #This depends on your CPU power
     hash_profit = int(hash_profit)
     
     profit = int(profit) + hash_profit
