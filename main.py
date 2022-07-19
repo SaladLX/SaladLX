@@ -30,7 +30,10 @@ print(Fore.YELLOW + '- Made By The SaladLX Team')
 time.sleep(1)
 
 print(' ')
-wallet = input(Fore.WHITE + 'BTC Wallet Adress: ')
+
+choice = input(Fore.WHITE + 'Crypto To Mine: ')
+
+wallet = input(Fore.WHITE + f'{choice} Wallet Adress: ')
 
 amount = input(Fore.WHITE + 'Amount Of Mining Attempts: ')
 amount = int(amount)
@@ -47,11 +50,11 @@ profit = int(profit)
 
 for line in range(amount):
     
-    time.sleep(0.7)
+    time.sleep(0.5)
     
     mined = int(mined) + 1
     
-    hash_profit = random.randint(3, 9) #This depends on your CPU power
+    hash_profit = random.randint(130, 160) #This depends on your CPU power
     hash_profit = int(hash_profit)
     
     profit = int(profit) + hash_profit
@@ -69,3 +72,7 @@ for line in range(amount):
         time.sleep(1)
         
         print(Fore.MAGENTA + f'Profit: ${profit}')
+        
+        time.sleep(1)
+        
+        print(Fore.GREEN + f'Sent: ${profit} To: {wallet}')
